@@ -21,4 +21,5 @@ def csvToLatex(csvFile):
 	print latex
 	csv.close()
 
-csvToLatex('/Users/MacbookPro/Dropbox/sample.csv')
+csv_file = raw_input('Enter CSV file absolute location: ')
+csvToLatex(csv_file)
